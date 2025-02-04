@@ -1,0 +1,192 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fdfaf9;
+    background-image: url("./back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+}
+
+/* Improved header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.hero {
+    padding: 80px 20px;
+    background-image: url('pizzaa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #646262;
+    color: #fcfafa;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+
+button:hover {
+    background-color: #4a4a4a;
+}
+
+#menu h2 {
+    color: #faf8f8;
+    font-size: 2em;
+    margin: 30px 0 15px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.menu-sauces {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+#Sauces h2, #Sauces p {
+    color: #ffffff;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.pizza-card {
+    background-color: white;
+    padding: 15px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pizza-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pizza-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-Components {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+#ingredients {
+    color: #ffffff;
+}
+
+#ingredients p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.Components {
+    background-color: white;
+    padding: 15px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Components img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Components:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#Reviews h2 {
+    color: #f8f8f8;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#Reviews p {
+    color: #ffffff;
+}
+
+.Review {
+    background-color: #6fa4ab;
+    padding: 15px;
+    margin: 15px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Review:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
